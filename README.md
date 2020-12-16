@@ -1,6 +1,11 @@
 <h2> Drawing in javascript </h2>
 <br>
-Create a drawing script 
+I use : 
+
 * HTML
+
 * CSS
+
 * JS
+
+To create this drawer
