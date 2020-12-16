@@ -1,9 +1,10 @@
 *{box-sizing: border-box;}
 
 body{
-    background-color: floralwhite;
+    background-image: linear-gradient(to right, #d16ba5, #c575b7, #b67fc7, #a58ad2, #9393da, #839fe5, #71aced, #5fb7f2, #47c9fa, #36dbfc, #40ecf9, #5ffbf1);
     display: flex;
     align-items: center;
+    flex-direction: column;
     justify-content: center;
     font-family: "Poppins",sans-serif;
     margin: 0;
@@ -11,5 +12,33 @@ body{
 }
 
 canvas {
-    border: 1px solid black;
+    border: 1px solid rgb(26, 60, 139);
+    background-color: #ffffff;
+}
+
+.toolbox{
+    background-color: rgb(26, 60, 139);
+    padding: 1rem;
+    border: 1px solid #ffffff;
+    display: flex;
+    width: 800px;
+}
+
+.toolbox > * {
+    background-color: #ffffff;
+    border: none;
+    font-size: 2rem;
+    display: inline-flex;
+    align-items: center;
+    padding: 0.25rem;
+    
+    height: 50px;
+    width: 50px;
+    
+}
+
+.toolbox > *:last-child{
+    margin-left: auto;
+    justify-content: center;
+    color: red;
 }
