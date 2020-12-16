@@ -1,7 +1,7 @@
 *{box-sizing: border-box;}
 
 body{
-    background-image: linear-gradient(to right, #d16ba5, #c575b7, #b67fc7, #a58ad2, #9393da, #839fe5, #71aced, #5fb7f2, #47c9fa, #36dbfc, #40ecf9, #5ffbf1);
+    background-image: linear-gradient(to right, #2953a1, #315aa8, #3861b0, #3f68b7, #466fbf, #387dcb, #258ad6, #0098df, #00aee7, #00c2e8, #00d5e5, #45e7de);    
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -12,13 +12,12 @@ body{
 }
 
 canvas {
-    border: 1px solid rgb(26, 60, 139);
+    border: 1px solid #3861b0;
     background-color: #ffffff;
 }
 
 .toolbox{
-    background-color: rgb(26, 60, 139);
-    padding: 1rem;
+    background-image: linear-gradient(to right, #2953a1, #315aa8, #3861b0, #3f68b7, #466fbf, #387dcb, #258ad6, #0098df, #00aee7, #00c2e8, #00d5e5, #45e7de);    padding: 1rem;
     border: 1px solid #ffffff;
     display: flex;
     width: 800px;
